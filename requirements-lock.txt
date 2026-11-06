@@ -1,0 +1,8 @@
+# Exact Python dependency versions observed during verification on Python 3.12.14.
+numpy==2.3.5
+pandas==2.2.3
+Pillow==13.0.0
+python-dateutil==3.0.0
+pytz==2026.5
+six==1.17.0
+tzdata==2026.5

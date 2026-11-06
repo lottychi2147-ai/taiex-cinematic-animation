@@ -1,0 +1,226 @@
+{
+  "as_of": "2026-11-06",
+  "index": "TAIEX 臺灣證券交易所發行量加權股價指數（價格指數）",
+  "rules": [
+    "收盤折線只用 close，不得混入盤中高低。",
+    "事件發生日與行情觀察日不同須分別標示。",
+    "2026 是截至 11/6，非全年。",
+    "歷史紀錄加上當時。"
+  ],
+  "events": [
+    {
+      "date": "1999-09-27",
+      "event_date": "1999-09-21",
+      "title": "九二一地震後復市",
+      "category": "災害與市場制度",
+      "close": 7759.93,
+      "change_points": -212.21,
+      "change_pct": -2.66,
+      "narration": "一九九九年，九二一地震衝擊台灣。九月二十七日股市恢復交易，收盤下跌二百一十二點。",
+      "sources": [
+        "https://scweb.cwa.gov.tw/zh-tw/page/disaster/3",
+        "https://news.sina.com.cn/china/1999-9-28/18213.html",
+        "https://www.cmmedia.com.tw/home/articles/33149"
+      ],
+      "note": "9/21 休市，不能虛構當日行情。行情日是 9/27。"
+    },
+    {
+      "date": "2001-09-26",
+      "title": "網路泡沫與九一一衝擊",
+      "category": "經濟與國際事件",
+      "intraday_low": 3411.68,
+      "narration": "網路泡沫破裂後，全球科技景氣轉弱。再遇九一一事件，二〇〇一年九月，台股盤中低見三千四百一十一點。",
+      "sources": [
+        "https://www.moneydj.com/kmdj/report/reportviewer.aspx?a=3cb880c6-b53a-4e3b-8d77-b9ec39bccc81",
+        "https://www.cna.com.tw/news/firstnews/202003190476.aspx"
+      ],
+      "note": "此數字為盤中低點，不是收盤。全段下跌不能歸於單一事件。"
+    },
+    {
+      "date": "2003-04-28",
+      "title": "SARS 疫情衝擊",
+      "category": "公共衛生與經濟",
+      "close": 4139.5,
+      "intraday_low": 4044.73,
+      "change_points": -94.04,
+      "change_pct": -2.22,
+      "narration": "二〇〇三年，SARS 疫情升溫。四月二十八日，台股收在四千一百三十九點，盤中一度跌到四千零四十四點。",
+      "sources": [
+        "https://www.taipeitimes.com/News/biz/archives/2003/04/29/0000203988",
+        "https://econstats.com/eqty/eq_d_ap_20.htm"
+      ],
+      "note": "Bloomberg 當日新聞核實收盤 4,139.50、跌 94.04，EconStats 核實盤中低 4,044.73。"
+    },
+    {
+      "date": "2008-11-20",
+      "title": "全球金融海嘯",
+      "category": "金融與經濟危機",
+      "close": 4089.93,
+      "change_points": -194.16,
+      "change_pct": -4.53,
+      "next_day_intraday_low": {
+        "date": "2008-11-21",
+        "value": 3955.43
+      },
+      "narration": "二〇〇八年，金融海嘯席捲全球。十一月二十日台股收在四千零八十九點，隔天盤中一度跌破四千點。",
+      "sources": [
+        "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=601895de-c767-422f-815a-8d9de9923c07",
+        "https://ec.ltn.com.tw/article/breakingnews/151910"
+      ],
+      "note": "11/21 盤中低 3,955.43 不能冒充 11/20 收盤。"
+    },
+    {
+      "date": "2015-08-24",
+      "title": "全球股市急跌",
+      "category": "全球市場波動",
+      "close": 7410.34,
+      "change_points": -376.58,
+      "narration": "二〇一五年八月，全球股市賣壓擴大。八月二十四日，台股收盤重挫三百七十六點。",
+      "sources": [
+        "https://www.cna.com.tw/news/afe/201508240202.aspx",
+        "https://www.cna.com.tw/news/firstnews/202003190476.aspx"
+      ],
+      "note": "中央社報 -4.83%，四捨五入計算會是 -4.84%，旁白只用點數。"
+    },
+    {
+      "date": "2017-05-11",
+      "title": "收盤重返萬點",
+      "category": "股市里程碑",
+      "close": 10001.48,
+      "change_points": 33.16,
+      "change_pct": 0.33,
+      "narration": "二〇一七年五月十一日，台股收在一萬零一點。睽違十七年，收盤再度站上萬點。",
+      "sources": [
+        "https://www.cna.com.tw/news/afe/201705110219.aspx",
+        "https://www.cna.com.tw/news/afe/201705110384.aspx"
+      ],
+      "note": "收盤重返萬點，不是 17 年來首次盤中破萬。"
+    },
+    {
+      "date": "2020-03-19",
+      "title": "新冠疫情引發拋售",
+      "category": "公共衛生與金融市場",
+      "close": 8681.34,
+      "intraday_low": 8523.63,
+      "change_points": -537.33,
+      "change_pct": -5.83,
+      "narration": "二〇二〇年，新冠疫情引發全球拋售。三月十九日，台股下跌百分之五點八三，收在八千六百八十一點。",
+      "sources": [
+        "https://www.cna.com.tw/news/firstnews/202003195005.aspx",
+        "https://www.cna.com.tw/news/afe/202003190195.aspx"
+      ]
+    },
+    {
+      "date": "2020-07-27",
+      "title": "突破三十年前高",
+      "category": "股市里程碑",
+      "close": 12588.3,
+      "intraday_high": 12686.36,
+      "change_points": 284.26,
+      "change_pct": 2.31,
+      "narration": "同年七月，台積電帶領大盤反攻。七月二十七日，台股盤中突破一九九〇年的高點，改寫三十年紀錄。",
+      "sources": [
+        "https://www.cna.com.tw/news/firstnews/202007275002.aspx",
+        "https://www.cna.com.tw/news/afe/202007270105.aspx"
+      ],
+      "note": "破 1990 紀錄的 12,686.36 是盤中高點，收盤為 12,588.30。"
+    },
+    {
+      "date": "2022-12-30",
+      "title": "戰爭、通膨與升息",
+      "category": "全年經濟背景與年度行情",
+      "close": 14137.69,
+      "annual_change_points": -4081.15,
+      "annual_change_pct": -22.4,
+      "narration": "二〇二二年，俄烏戰爭、通膨與升息衝擊市場。台股全年下跌百分之二十二點四，年末收在一萬四千多點。",
+      "sources": [
+        "https://wwwc.twse.com.tw/downloads/zh/about/company/Annual/111/ebook/files/basic-html/page22.html",
+        "https://www.cna.com.tw/news/afe/202212300335.aspx"
+      ],
+      "note": "−22.40% 是全年，不是 12/30 當日；當日上漲 52.67 點。"
+    },
+    {
+      "date": "2024-03-08",
+      "title": "盤中首破兩萬點",
+      "category": "股市里程碑",
+      "close": 19785.32,
+      "intraday_high": 20065.5,
+      "change_points": 91.8,
+      "change_pct": 0.47,
+      "narration": "二〇二四年三月，台積電領漲，台股盤中首次突破兩萬點。當天漲勢收斂，收盤仍在兩萬點以下。",
+      "sources": [
+        "https://www.cna.com.tw/news/afe/202403080065.aspx",
+        "https://www.cna.com.tw/news/afe/202403080148.aspx"
+      ],
+      "note": "3/8 首次盤中破兩萬，不是首次收盤破兩萬。"
+    },
+    {
+      "date": "2025-04-07",
+      "event_date": "2025-04-02",
+      "title": "美國對等關稅衝擊",
+      "category": "貿易政策與市場衝擊",
+      "close": 19232.35,
+      "change_points": -2065.87,
+      "change_pct": -9.7,
+      "narration": "二〇二五年，美國宣布對等關稅。四月七日連假後復市，台股下跌百分之九點七，寫下當時最大單日跌點與跌幅。",
+      "sources": [
+        "https://www.cna.com.tw/news/afe/202504070149.aspx",
+        "https://www.cna.com.tw/news/afe/202504070282.aspx"
+      ],
+      "note": "要說當時最大紀錄；17,391.76 是 4/9 收盤，不能寫成 4/7。"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "十一月六日收盤",
+      "category": "最新觀測・非完整年度",
+      "close": 39701.64,
+      "change_points": -1873.08,
+      "change_pct": -4.51,
+      "sources": [
+        "https://www.twse.com.tw/rwd/zh/TAIEX/MI_5MINS_HIST?date=20261106&response=json",
+        "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date=20261106&type=IND&response=json",
+        "https://www.cna.com.tw/news/afe/202611060138.aspx"
+      ],
+      "note": "官方日報收盤單點，非完整年度；完整日線須另行取得合法授權。"
+    }
+  ],
+  "historical_reference_line": {
+    "date": "1990-02-12",
+    "value": 12682.41,
+    "type": "intraday_high",
+    "label": "1990.02.12 盤中前高 12,682.41",
+    "broken_date": "2020-07-27",
+    "broken_intraday_high": 12686.36,
+    "elapsed": {
+      "years": 30,
+      "months": 5,
+      "days": 15,
+      "calendar_days": 11123
+    },
+    "elapsed_label": "突破舊盤中高點，相隔 30 年 5 個月 15 天",
+    "sources": [
+      {
+        "title": "公務人員退休撫卹基金管理局刊載文章，明確區分 1990-02-10 收盤高點與 1990-02-12 盤中高點",
+        "url": "https://www.fund.gov.tw/News_Content.aspx?n=3268&s=18117"
+      },
+      {
+        "title": "經濟日報 2024-03-21 歷史回顧：1990-02-12 盤中 12,682.41",
+        "url": "https://money.udn.com/money/amp/story/124512/7846629"
+      },
+      {
+        "title": "證交所 Taiwan Monthly 2020-12：2020-07-27 超越 1990 年 2 月 12,682.41 前高",
+        "url": "https://twmonthly.twse.com.tw/front/content/8a8185be73eff5880175f942b7ef0048?date=Dec.+2020"
+      },
+      {
+        "title": "中央社 2020-07-27 當日：盤中 12,686.36，收盤 12,588.30",
+        "url": "https://www.cna.com.tw/news/firstnews/202007275002.aspx"
+      }
+    ],
+    "warnings": [
+      "1990 點位為圖示參考線，不得偽造 1990–1998 OHLC。",
+      "這是價格指數的舊盤中高點，不是收盤前高，也不是含息總報酬指數。",
+      "等待期間是前高紀錄未突破時間，不代表所有投資人實際套牢 30 年；股息、選股、買賣時間與成分股調整都不同。",
+      "2020-07-27 盤中已突破，當天收盤仍低於該盤中前高。"
+    ]
+  }
+}

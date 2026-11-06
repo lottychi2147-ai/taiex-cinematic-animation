@@ -1,0 +1,34 @@
+{
+  "dataset_title": "Weighted Stock Price Index Historical Data (TAIEX)",
+  "data_provider": "Taiwan Stock Exchange (TWSE)",
+  "catalog_agency": "Securities and Futures Bureau, Financial Supervisory Commission, Executive Yuan, R.O.C.",
+  "source_url": "https://openapi.twse.com.tw/v1/indicesReport/MI_5MINS_HIST",
+  "catalog_url": "https://data.gov.tw/en/datasets/11755",
+  "csv_source_url": "https://www.twse.com.tw/indicesReport/MI_5MINS_HIST?response=open_data",
+  "license": "Open Government Data License, version 1.0",
+  "license_url": "https://data.gov.tw/license",
+  "license_note": "Requires attribution; compatible with Creative Commons Attribution 4.0 International (section 4.2).",
+  "retrieved_date": "2026-10-22",
+  "analysis_timestamp_utc": "2026-10-22T10:11:54.525566+00:00",
+  "raw_sha256": "66b871d0f772fb7134701d7234092121396d07406d9a5bcd9e6e5c8118050fcc",
+  "raw_rows": 14,
+  "selected_start": "2026-10-01",
+  "selected_end": "2026-10-16",
+  "selected_rows": 11,
+  "unit": "index points",
+  "row_granularity": "one trading session",
+  "transformations": [
+    "Convert ROC calendar year to Gregorian by adding 1911",
+    "Convert numeric strings to numbers",
+    "Keep sessions from 2026-10-01 through 2026-10-16 inclusive",
+    "Sort ascending by date"
+  ],
+  "missing_day_policy": "Show only source trading sessions. No invented or zero-filled records.",
+  "limitations": [
+    "The source endpoint is a rolling current-month snapshot; use the stored file for reproducibility.",
+    "OHLC summarizes extremes and endpoints but does not reveal intraday event order or a complete volatility estimate."
+  ],
+  "attribution": "Taiwan Stock Exchange / Securities and Futures Bureau, 2026. Weighted Stock Price Index Historical Data. Open Government Data License 1.0. https://data.gov.tw/en/datasets/11755; https://data.gov.tw/license. Adaptation: date and numeric-type normalization and 1–16 October 2026 selection.",
+  "archived_csv_source": "https://github.com/dunay2/pec2-visualizacion-datos/blob/9b1c4e5d99fafc45350d5456cb704ee1bbd066ac/data/taiex.csv",
+  "project_transformation": "Added ohlc_verified boolean after source/interval checks; no price values interpolated or altered."
+}

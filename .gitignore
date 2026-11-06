@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+output/
+qa/
+*.mp4
+*.wav
+*.png
+*.zip
+*.audio.json
+*.qa.json

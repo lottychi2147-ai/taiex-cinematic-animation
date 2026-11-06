@@ -1,0 +1,44 @@
+{
+  "canvas": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30
+  },
+  "story": {
+    "duration_seconds": 232,
+    "hook_seconds": 7,
+    "overview_seconds": 7,
+    "hook_start": "2000-03-31",
+    "hook_end": "2001-09-28"
+  },
+  "theme": {
+    "background": [
+      5,
+      8,
+      13
+    ],
+    "up": [
+      255,
+      53,
+      109
+    ],
+    "down": [
+      0,
+      236,
+      165
+    ]
+  },
+  "data_policy": {
+    "require_verified_ohlc": true,
+    "never_interpolate_market_observations": true
+  },
+  "optional_panels": {
+    "ranking": false,
+    "heatmap": false
+  },
+  "fonts": {
+    "cjk": "Noto Sans CJK TC:style=Bold",
+    "latin": "DejaVu Sans:style=Condensed Bold",
+    "cjk_face_index": 3
+  }
+}
